@@ -8,13 +8,14 @@
     <body>
         <h1>Etch-a-Sketch</h1>
         <div class="header">
-            <button class="btn btn-primary">Grid Size</button>
+            <button class="btn btn-primary btn-size">Grid Size</button>
         </div>
+        <p id="msg"></p>
         <div class="board"></div>
         <div class="footer">
-            <button class="btn btn-secondary">Reset</button>
-            <button class="btn btn-secondary">Rainbow</button>
-            <button class="btn btn-secondary">Black</button>
+            <button class="btn btn-secondary" onclick="resetBoard()">Reset</button>
+            <button class="btn btn-secondary" onclick="setColor('rainbow')">Rainbow</button>
+            <button class="btn btn-secondary" onclick="setColor('black')">Black</button>
         </div>
 
 
